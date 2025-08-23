@@ -3,12 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سياسة الخصوصية - تطبيق الهبة</title>
-    <meta name="description" content="سياسة الخصوصية لتطبيق الهبة - حماية خصوصية المستخدمين">
-    <meta property="og:title" content="سياسة الخصوصية - تطبيق الهبة">
-    <meta property="og:description" content="سياسة الخصوصية لتطبيق الهبة">
-    <meta property="og:type" content="website">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
+    <title>شروط الاستخدام - Terms and Conditions | Al-Habbah</title>
     <style>
         * {
             margin: 0;
@@ -20,270 +15,402 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #f8f9fa;
-            direction: rtl;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .github-badges {
-            text-align: center;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: linear-gradient(135deg, #f6f8fa, #e1e4e8);
-            border-radius: 8px;
-            border: 1px solid #d0d7de;
-        }
-
-        .badge {
-            display: inline-block;
-            margin: 5px;
-            padding: 8px 12px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-
-        .badge:hover {
-            background-color: #0056b3;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .badge.license {
-            background-color: #28a745;
-        }
-
-        .badge.license:hover {
-            background-color: #1e7e34;
-        }
-
-        .badge.version {
-            background-color: #6f42c1;
-        }
-
-        .badge.version:hover {
-            background-color: #5a32a3;
         }
 
         .header {
             text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
             margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 3px solid #007bff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
         }
 
         .header h1 {
-            color: #007bff;
+            color: #2c3e50;
             font-size: 2.5rem;
             margin-bottom: 10px;
-            font-weight: bold;
         }
 
         .header p {
-            color: #666;
+            color: #7f8c8d;
             font-size: 1.1rem;
-            line-height: 1.8;
+        }
+
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
         }
 
         .section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            border-right: 4px solid #007bff;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .section h2 {
-            color: #007bff;
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .section h3 {
+            color: #34495e;
+            font-size: 1.3rem;
+            margin: 20px 0 10px 0;
+        }
+
+        .section p, .section li {
+            color: #555;
+            margin-bottom: 10px;
+            text-align: justify;
         }
 
         .section ul {
-            list-style: none;
-            padding-right: 20px;
-        }
-
-        .section ul li {
-            margin-bottom: 10px;
-            position: relative;
-            padding-right: 20px;
-        }
-
-        .section ul li:before {
-            content: "•";
-            color: #007bff;
-            font-weight: bold;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        .contact-info {
-            background: linear-gradient(135deg, #007bff, #0056b3);
-            color: white;
-            padding: 25px;
-            border-radius: 10px;
-            text-align: center;
-            margin-top: 30px;
-        }
-
-        .contact-info h3 {
+            margin-left: 20px;
             margin-bottom: 15px;
-            font-size: 1.3rem;
         }
 
-        .contact-info p {
-            font-size: 1.1rem;
-            margin-bottom: 10px;
+        .section li {
+            margin-bottom: 8px;
         }
 
-        .email {
-            background-color: rgba(255, 255, 255, 0.2);
-            padding: 10px 20px;
-            border-radius: 25px;
-            display: inline-block;
-            margin-top: 10px;
-            font-weight: bold;
+        .highlight {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
         }
 
         .footer {
             text-align: center;
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #e1e4e8;
-            color: #666;
-            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer p {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 15px;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .language-toggle button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle button:hover {
+            background: #5a6fd8;
+            transform: translateY(-2px);
+        }
+
+        .language-toggle button.active {
+            background: #2c3e50;
+        }
+
+        .hidden {
+            display: none;
         }
 
         @media (max-width: 768px) {
-            .container {
-                margin: 10px;
-                padding: 15px;
+            .content-wrapper {
+                grid-template-columns: 1fr;
             }
-
+            
             .header h1 {
                 font-size: 2rem;
             }
-
+            
             .section {
-                padding: 15px;
+                padding: 20px;
             }
+            
+            .language-toggle {
+                position: static;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
 
-            .badge {
-                display: block;
-                margin: 5px auto;
-                max-width: 200px;
-            }
+        .arabic {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .english {
+            direction: ltr;
+            text-align: left;
         }
     </style>
 </head>
 <body>
+    <div class="language-toggle">
+        <button onclick="showArabic()" id="arabic-btn" class="active">العربية</button>
+        <button onclick="showEnglish()" id="english-btn">English</button>
+    </div>
+
     <div class="container">
-        <!-- GitHub Badges Section -->
-        <div class="github-badges">
-            <a href="https://github.com/your-username/al-habbh-mobileApp" class="badge">
-                📱 تطبيق الهبة
-            </a>
-            <a href="https://github.com/your-username/al-habbh-mobileApp/blob/main/LICENSE" class="badge license">
-                📄 MIT License
-            </a>
-            <a href="https://github.com/your-username/al-habbh-mobileApp/releases" class="badge version">
-                🚀 v1.0.0
-            </a>
-            <a href="https://github.com/your-username/al-habbh-mobileApp/issues" class="badge">
-                🐛 Report Issues
-            </a>
+        <!-- Arabic Content -->
+        <div id="arabic-content" class="arabic">
+            <div class="header">
+                <div class="logo">ح</div>
+                <h1>شروط الاستخدام</h1>
+                <p>تطبيق الحبة - Al-Habbah App</p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="section">
+                    <h2>١. العلاقة التعاقدية</h2>
+                    <p>● بإنشاء حساب واستخدام تطبيق الحبة، فإنك توافق تماماً على شروط الاستخدام هذه.</p>
+                    <p>● تشكل هذه الاتفاقية عقداً ملزماً قانونياً بينك وإدارة التطبيق.</p>
+                    <p>● إذا كنت لا توافق على هذه الشروط، يجب عليك التوقف فوراً عن استخدام التطبيق.</p>
+
+                    <h3>٢. الأهلية</h3>
+                    <p>● الحد الأدنى للعمر لاستخدام التطبيق هو ١٣ عاماً.</p>
+                    <p>● إذا كنت دون ١٨ عاماً، يلزم موافقة الوالدين أو الوصي لاستخدام التطبيق.</p>
+
+                    <h3>٣. البيانات الشخصية</h3>
+                    <p>● التسجيل يتطلب المعلومات الأساسية فقط (مثل رقم الهاتف أو البريد الإلكتروني).</p>
+                    <p>● التفاصيل الإضافية (مثل العمر أو الجنس) اختيارية وغير إلزامية.</p>
+                    <p>● ستستخدم بياناتك فقط وفقاً لسياسة الخصوصية والقوانين المعمول بها.</p>
+                </div>
+
+                <div class="section">
+                    <h2>٤. المحتوى المحظور</h2>
+                    <p>يُحظر تماماً نشر أو مشاركة أي محتوى يتضمن:</p>
+                    <ul>
+                        <li>لغة مسيئة أو كراهية أو تمييزية</li>
+                        <li>تهديدات أو مضايقة أو تنمر أو ابتزاز</li>
+                        <li>محتوى إباحي أو جنسي صريح</li>
+                        <li>معلومات مزيفة أو مضللة</li>
+                        <li>ترويج أنشطة أو منتجات غير قانونية</li>
+                        <li>أي محتوى قد يعرض سلامة المستخدمين للخطر</li>
+                    </ul>
+
+                    <div class="warning">
+                        <strong>تحذير:</strong> المخالفات ستؤدي إلى إزالة المحتوى فوراً وتعليق الحساب أو إنهاؤه، دون إشعار مسبق.
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="section">
+                    <h2>٥. مسؤولية المستخدم</h2>
+                    <p>● المستخدمون مسؤولون تماماً عن أي محتوى ينشئونه أو يشاركونه في التطبيق.</p>
+                    <p>● إدارة التطبيق غير مسؤولة عن المحتوى المنشأ من قبل المستخدمين ولكنها تحتفظ بالحق في إزالته أو اتخاذ إجراء ضد المخالفين.</p>
+
+                    <h3>٦. الإبلاغ والمراقبة</h3>
+                    <p>● يوفر التطبيق ميزة "الإبلاغ" للمحتوى المسيء.</p>
+                    <p>● فريق المراقبة ملتزم بمراجعة والتصرف في جميع البلاغات خلال ٢٤ ساعة.</p>
+                    <p>● يمكن للمستخدمين حظر حسابات أخرى لمنع التفاعلات غير المرغوب فيها.</p>
+                </div>
+
+                <div class="section">
+                    <h2>٧. الملكية الفكرية</h2>
+                    <p>● جميع حقوق الملكية الفكرية والعلامات التجارية والمحتوى الرقمي في التطبيق محفوظة.</p>
+                    <p>● يُحظر نسخ أو إعادة توزيع أو استغلال أي جزء من التطبيق دون موافقة كتابية مسبقة.</p>
+
+                    <h3>٨. التنفيذ والعقوبات</h3>
+                    <p>في حالة المخالفة، تحتفظ إدارة التطبيق بالحق في:</p>
+                    <ul>
+                        <li>إزالة المحتوى المسيء فوراً</li>
+                        <li>تعليق أو إنهاء الحسابات نهائياً</li>
+                        <li>مشاركة بيانات المستخدم مع السلطات القانونية إذا تم اكتشاف نشاط غير قانوني</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <h2>٩. تحديث الشروط</h2>
+                <p>يحتفظ التطبيق بالحق في تعديل أو تحديث هذه الشروط في أي وقت. الاستمرار في استخدام التطبيق بعد التحديثات يشكل قبولاً كاملاً للشروط المنقحة.</p>
+            </div>
+
+            <div class="section">
+                <h2>١٠. القبول</h2>
+                <p>إنشاء حساب أو الاستمرار في استخدام التطبيق يشكل قبولاً نهائياً وغير قابل للإلغاء لهذه الشروط.</p>
+            </div>
         </div>
 
-        <div class="header">
-            <h1>سياسة الخصوصية</h1>
-            <p>نحن في تطبيق الهبة نحرص على حماية خصوصية مستخدمينا. توضح هذه السياسة كيفية جمع معلوماتك واستخدامها ومشاركتها عند استخدامك لخدماتنا.</p>
-        </div>
+        <!-- English Content -->
+        <div id="english-content" class="english hidden">
+            <div class="header">
+                <div class="logo">A</div>
+                <h1>Terms and Conditions</h1>
+                <p>Al-Habbah App - تطبيق الحبة</p>
+            </div>
 
-        <div class="section">
-            <h2>1. المعلومات التي نقوم بجمعها:</h2>
-            <ul>
-                <li>الاسم، رقم الجوال، البريد الإلكتروني.</li>
-                <li>الموقع الجغرافي (بموافقتك).</li>
-                <li>تفضيلات الاستخدام، مثل الكوفيهات أو الأماكن التي تزورها داخل التطبيق.</li>
-                <li>البيانات التقنية (نوع الجهاز، نظام التشغيل، إلخ).</li>
-            </ul>
-        </div>
+            <div class="content-wrapper">
+                <div class="section">
+                    <h2>1. Contractual Relationship</h2>
+                    <p>● By creating an account and using the Al-Habbah app, you fully agree to these Terms of Use.</p>
+                    <p>● This agreement constitutes a legally binding contract between you and the app administration.</p>
+                    <p>● If you do not agree with these terms, you must immediately stop using the app.</p>
 
-        <div class="section">
-            <h2>2. كيفية استخدام المعلومات:</h2>
-            <ul>
-                <li>تحسين تجربة المستخدم داخل التطبيق.</li>
-                <li>تخصيص المحتوى والعروض الإعلانية.</li>
-                <li>الرد على استفسارات المستخدمين والدعم الفني.</li>
-                <li>إرسال إشعارات وتنبيهات متعلقة بالخدمات أو التحديثات.</li>
-            </ul>
-        </div>
+                    <h3>2. Eligibility</h3>
+                    <p>● The minimum age to use the app is 13 years old.</p>
+                    <p>● If you are under 18, parental or guardian consent is required to use the app.</p>
 
-        <div class="section">
-            <h2>3. مشاركة المعلومات:</h2>
-            <ul>
-                <li>لا نقوم ببيع أو مشاركة معلوماتك لأي طرف ثالث غير مصرح.</li>
-                <li>قد نشارك بعض البيانات مع مزودي الخدمات (مثل التحليلات، أو خدمات الدفع) تحت سرية تامة.</li>
-            </ul>
-        </div>
+                    <h3>3. Personal Data</h3>
+                    <p>● Registration requires only basic information (such as phone number or email).</p>
+                    <p>● Additional details (such as age or gender) are optional and not mandatory.</p>
+                    <p>● Your data will be used only in accordance with the Privacy Policy and applicable laws.</p>
+                </div>
 
-        <div class="section">
-            <h2>4. حماية البيانات:</h2>
-            <ul>
-                <li>نستخدم بروتوكولات أمان وتقنيات مشفرة لحماية معلوماتك.</li>
-                <li>يتم تخزين البيانات على خوادم آمنة ومعتمدة.</li>
-            </ul>
-        </div>
+                <div class="section">
+                    <h2>4. Prohibited Content</h2>
+                    <p>It is strictly forbidden to publish or share any content that includes:</p>
+                    <ul>
+                        <li>Offensive, hateful, or discriminatory language</li>
+                        <li>Threats, harassment, bullying, or blackmail</li>
+                        <li>Pornographic or sexually explicit material</li>
+                        <li>Fake or misleading information</li>
+                        <li>Promotion of illegal activities or products</li>
+                        <li>Any content that may endanger users' physical or mental safety</li>
+                    </ul>
 
-        <div class="section">
-            <h2>5. حقوق المستخدم:</h2>
-            <ul>
-                <li>يمكنك طلب تعديل أو حذف بياناتك الشخصية.</li>
-                <li>يمكنك إلغاء الاشتراك في الإشعارات في أي وقت.</li>
-            </ul>
-        </div>
+                    <div class="warning">
+                        <strong>Warning:</strong> Violations will result in immediate content removal and account suspension or termination, without prior notice.
+                    </div>
+                </div>
+            </div>
 
-        <div class="section">
-            <h2>6. ملفات تعريف الارتباط (Cookies):</h2>
-            <ul>
-                <li>نستخدم ملفات تعريف الارتباط لتحسين تجربة المستخدم وتحليل الأداء.</li>
-            </ul>
-        </div>
+            <div class="content-wrapper">
+                <div class="section">
+                    <h2>5. User Responsibility</h2>
+                    <p>● Users are fully responsible for any content they create or share within the app.</p>
+                    <p>● The app administration is not liable for user-generated content but reserves the right to remove it or take action against violators.</p>
 
-        <div class="section">
-            <h2>7. التعديلات على السياسة:</h2>
-            <ul>
-                <li>قد نقوم بتحديث سياسة الخصوصية، وسيتم إخطار المستخدمين بالتغييرات عبر التطبيق.</li>
-            </ul>
-        </div>
+                    <h3>6. Reporting & Moderation</h3>
+                    <p>● The app provides a "Report" feature for objectionable content.</p>
+                    <p>● Our moderation team is committed to reviewing and acting on all reports within 24 hours.</p>
+                    <p>● Users may block other accounts to prevent unwanted interactions.</p>
+                </div>
 
-        <div class="contact-info">
-            <h3>8. التواصل معنا:</h3>
-            <p>للاستفسارات أو تقديم طلبات تتعلق بالخصوصية، يرجى التواصل معنا عبر البريد:</p>
-            <div class="email">📩 info@alhabbh.com</div>
+                <div class="section">
+                    <h2>7. Intellectual Property</h2>
+                    <p>● All intellectual property rights, trademarks, and digital content in the app are reserved.</p>
+                    <p>● Copying, redistributing, or exploiting any part of the app without prior written consent is prohibited.</p>
+
+                    <h3>8. Enforcement & Penalties</h3>
+                    <p>In case of violation, the app administration reserves the right to:</p>
+                    <ul>
+                        <li>Immediately remove objectionable content</li>
+                        <li>Suspend or permanently terminate accounts</li>
+                        <li>Share user data with legal authorities if unlawful activity is detected</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <h2>9. Updates to Terms</h2>
+                <p>The app reserves the right to modify or update these terms at any time. Continued use of the app after updates constitutes full acceptance of the revised terms.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. Acceptance</h2>
+                <p>Creating an account or continuing to use the app constitutes final and irrevocable acceptance of these terms.</p>
+            </div>
         </div>
 
         <div class="footer">
-            <p>© 2024 تطبيق الهبة - جميع الحقوق محفوظة</p>
-            <p>آخر تحديث: ديسمبر 2024</p>
+            <p>© 2024 Al-Habbah App. جميع الحقوق محفوظة - All rights reserved.</p>
+            <p>آخر تحديث - Last updated: ديسمبر 2024 - December 2024</p>
         </div>
     </div>
+
+    <script>
+        function showArabic() {
+            document.getElementById('arabic-content').classList.remove('hidden');
+            document.getElementById('english-content').classList.add('hidden');
+            document.getElementById('arabic-btn').classList.add('active');
+            document.getElementById('english-btn').classList.remove('active');
+        }
+
+        function showEnglish() {
+            document.getElementById('english-content').classList.remove('hidden');
+            document.getElementById('arabic-content').classList.add('hidden');
+            document.getElementById('english-btn').classList.add('active');
+            document.getElementById('arabic-btn').classList.remove('active');
+        }
+
+        // Add smooth scrolling for better UX
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'all 0.6s ease';
+            });
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
 </body>
-</html> 
+</html>

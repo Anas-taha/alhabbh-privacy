@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معايير سلامة الأطفال - تطبيق الهبة</title>
+    <meta name="description" content="معايير سلامة الأطفال لتطبيق الهبة - حماية الأطفال من الاستغلال والاعتداء">
+    <meta property="og:title" content="معايير سلامة الأطفال - تطبيق الهبة">
+    <meta property="og:description" content="معايير سلامة الأطفال لتطبيق الهبة">
+    <meta property="og:type" content="website">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f8f9fa;
+            direction: rtl;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 25px;
+            border-bottom: 4px solid #dc3545;
+        }
+
+        .header h1 {
+            color: #dc3545;
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .app-info {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .app-info h2 {
+            color: #856404;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .app-info p {
+            color: #856404;
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            color: #dc3545;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #dc3545;
+        }
+
+        .section h3 {
+            color: #495057;
+            font-size: 1.4rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+            font-size: 1.05rem;
+        }
+
+        .section ul {
+            margin-right: 30px;
+            margin-bottom: 20px;
+        }
+
+        .section li {
+            margin-bottom: 12px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .highlight {
+            background-color: #f8d7da;
+            border-right: 5px solid #dc3545;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #721c24;
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 2px solid #dee2e6;
+            color: #6c757d;
+        }
+
+        .footer p {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+
+        .contact-info {
+            background-color: #e7f3ff;
+            border: 2px solid #0066cc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .contact-info h3 {
+            color: #004085;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            color: #004085;
+            margin: 8px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>معايير سلامة الأطفال</h1>
+            <p>سياسة تطبيق الهبة لحماية الأطفال</p>
+        </div>
+
+        <div class="app-info">
+            <h2>معلومات التطبيق</h2>
+            <p><strong>اسم التطبيق:</strong> تطبيق الهبة</p>
+            <p><strong>اسم المطور:</strong> ABDULMOHSEN ALSHAMMARI</p>
+            <p><strong>تاريخ آخر تحديث:</strong> 2025-01-09</p>
+        </div>
+
+        <div class="section">
+            <h2>1. التزامنا بحماية الأطفال</h2>
+            <p>
+                نحن في تطبيق <strong>الهبة</strong> ملتزمون بحماية سلامة الأطفال وحمايتهم من أي شكل من أشكال الاستغلال أو الاعتداء. 
+                نحن نرفض بشدة ونحظر صراحةً أي محتوى أو نشاط يتعلق بالاعتداء الجنسي على الأطفال واستغلالهم (CSAE).
+            </p>
+
+            <div class="highlight">
+                <strong>إعلان صريح:</strong> تطبيق الهبة يحظر بشكل صريح ومطلق الاعتداء الجنسي على الأطفال واستغلالهم (Child Sexual Abuse and Exploitation - CSAE) 
+                بأي شكل من الأشكال. نحن نلتزم بالحفاظ على بيئة آمنة للأطفال ونعمل بجد لمنع أي محتوى ضار أو استغلالي.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. سياسة المحتوى المحظور</h2>
+            <h3>2.1 المحتوى المحظور صراحةً:</h3>
+            <ul>
+                <li><strong>الاعتداء الجنسي على الأطفال:</strong> أي محتوى يتعلق بالاعتداء الجنسي على القاصرين محظور تماماً.</li>
+                <li><strong>استغلال الأطفال:</strong> أي شكل من أشكال استغلال الأطفال جنسياً أو غير ذلك محظور بشكل صريح.</li>
+                <li><strong>المواد الاستغلالية:</strong> أي صور أو فيديوهات أو نصوص تتضمن استغلالاً للأطفال محظورة.</li>
+                <li><strong>التواصل الضار:</strong> أي محاولة للتلاعب بالأطفال أو استغلالهم أو التواصل معهم بشكل غير لائق محظور.</li>
+            </ul>
+
+            <h3>2.2 الإجراءات تجاه المحتوى المحظور:</h3>
+            <ul>
+                <li>إزالة فورية لأي محتوى مشبوه أو مخالف.</li>
+                <li>حظر دائم للمستخدمين الذين ينتهكون هذه السياسة.</li>
+                <li>الإبلاغ للسلطات المختصة عند الضرورة.</li>
+                <li>التعاون الكامل مع الجهات المعنية بسلامة الأطفال.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. آليات الحماية</h2>
+            <h3>3.1 المراقبة والرقابة:</h3>
+            <ul>
+                <li>نستخدم أنظمة متقدمة لمراقبة المحتوى والكشف عن أي محتوى ضار.</li>
+                <li>نراجع جميع التقارير التي يتقدم بها المستخدمون بجدية عالية.</li>
+                <li>نقوم بفحص منتظم للمحتوى للتأكد من الامتثال لهذه السياسة.</li>
+            </ul>
+
+            <h3>3.2 الإبلاغ عن الانتهاكات:</h3>
+            <ul>
+                <li>نوفر قنوات سهلة للإبلاغ عن أي محتوى أو نشاط مشبوه.</li>
+                <li>نتعامل مع جميع التقارير بجدية ونقوم بالتحقيق الفوري.</li>
+                <li>نحافظ على سرية هوية المبلغين عند الطلب.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. التزامنا القانوني والأخلاقي</h2>
+            <p>
+                نحن في تطبيق <strong>الهبة</strong> ملتزمون بالامتثال لجميع القوانين المحلية والدولية المتعلقة بحماية الأطفال، 
+                بما في ذلك ولكن لا تقتصر على:
+            </p>
+            <ul>
+                <li>القوانين السعودية المتعلقة بحماية الأطفال من الاستغلال.</li>
+                <li>القوانين الدولية لمكافحة الاعتداء الجنسي على الأطفال.</li>
+                <li>معايير Google Play Store و Apple App Store المتعلقة بسلامة الأطفال.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. التعاون مع الجهات المعنية</h2>
+            <p>
+                نحن نتعاون بشكل كامل مع:
+            </p>
+            <ul>
+                <li>السلطات المحلية والدولية المختصة بسلامة الأطفال.</li>
+                <li>المنظمات المعنية بمكافحة استغلال الأطفال.</li>
+                <li>منصات التطبيقات (Google Play Store, Apple App Store) للإبلاغ عن أي انتهاكات.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. تحديثات السياسة</h2>
+            <p>
+                نحن نراجع ونحدث سياسة سلامة الأطفال بانتظام لضمان فعاليتها وامتثالها لأحدث المعايير والمتطلبات القانونية. 
+                سيتم إخطار المستخدمين بأي تغييرات جوهرية على هذه السياسة.
+            </p>
+        </div>
+
+        <div class="contact-info">
+            <h3>الإبلاغ عن انتهاكات أو التواصل معنا</h3>
+            <p>إذا صادفت أي محتوى أو نشاط يشتبه في أنه يتعلق بالاعتداء الجنسي على الأطفال أو استغلالهم، يرجى الإبلاغ فوراً:</p>
+            <p><strong>البريد الإلكتروني:</strong> info@alhabbh.com</p>
+            <p><strong>نوع التطبيق:</strong> تطبيق اجتماعي للاكتشاف والمشاركة</p>
+            <p><strong>اسم المطور:</strong> ABDULMOHSEN ALSHAMMARI</p>
+            <p><strong>اسم التطبيق:</strong> الهبة</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 تطبيق الهبة - جميع الحقوق محفوظة</strong></p>
+            <p>تم إنشاء هذه السياسة في إطار التزامنا بحماية الأطفال وضمان بيئة آمنة لجميع المستخدمين.</p>
+            <p>آخر تحديث: 2025-01-09</p>
+        </div>
+    </div>
+</body>
+</html>

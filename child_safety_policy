@@ -8,6 +8,7 @@
     <meta property="og:title" content="معايير سلامة الأطفال - تطبيق الهبة">
     <meta property="og:description" content="معايير سلامة الأطفال لتطبيق الهبة">
     <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
     <style>
         * {
             margin: 0;
@@ -17,16 +18,16 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.8;
+            line-height: 1.6;
             color: #333;
             background-color: #f8f9fa;
             direction: rtl;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 30px;
+            padding: 20px;
             background-color: white;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
@@ -34,23 +35,68 @@
             margin-bottom: 20px;
         }
 
+        .github-badges {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #f6f8fa, #e1e4e8);
+            border-radius: 8px;
+            border: 1px solid #d0d7de;
+        }
+
+        .badge {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 12px;
+            background-color: #dc3545;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .badge:hover {
+            background-color: #c82333;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .badge.license {
+            background-color: #28a745;
+        }
+
+        .badge.license:hover {
+            background-color: #1e7e34;
+        }
+
+        .badge.version {
+            background-color: #6f42c1;
+        }
+
+        .badge.version:hover {
+            background-color: #5a32a3;
+        }
+
         .header {
             text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 25px;
-            border-bottom: 4px solid #dc3545;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #dc3545;
         }
 
         .header h1 {
             color: #dc3545;
             font-size: 2.5rem;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             font-weight: bold;
         }
 
         .header p {
             color: #666;
             font-size: 1.1rem;
+            line-height: 1.8;
         }
 
         .app-info {
@@ -63,33 +109,36 @@
 
         .app-info h2 {
             color: #856404;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
             font-size: 1.3rem;
         }
 
         .app-info p {
             color: #856404;
-            margin: 5px 0;
+            margin: 8px 0;
             font-size: 1rem;
         }
 
         .section {
-            margin-bottom: 35px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-right: 4px solid #dc3545;
         }
 
         .section h2 {
             color: #dc3545;
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #dc3545;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            font-weight: bold;
         }
 
         .section h3 {
             color: #495057;
-            font-size: 1.4rem;
-            margin-top: 25px;
-            margin-bottom: 15px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 12px;
         }
 
         .section p {
@@ -99,86 +148,126 @@
         }
 
         .section ul {
-            margin-right: 30px;
-            margin-bottom: 20px;
+            list-style: none;
+            padding-right: 20px;
         }
 
-        .section li {
-            margin-bottom: 12px;
+        .section ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-right: 20px;
             font-size: 1.05rem;
             line-height: 1.8;
+        }
+
+        .section ul li:before {
+            content: "•";
+            color: #dc3545;
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+            top: 0;
         }
 
         .highlight {
             background-color: #f8d7da;
             border-right: 5px solid #dc3545;
             padding: 20px;
-            margin: 25px 0;
+            margin: 20px 0;
             border-radius: 5px;
             font-weight: bold;
             color: #721c24;
             font-size: 1.1rem;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 25px;
-            border-top: 2px solid #dee2e6;
-            color: #6c757d;
-        }
-
-        .footer p {
-            margin: 10px 0;
-            font-size: 1rem;
+            line-height: 1.8;
         }
 
         .contact-info {
-            background-color: #e7f3ff;
-            border: 2px solid #0066cc;
-            border-radius: 8px;
-            padding: 20px;
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
             margin-top: 30px;
         }
 
         .contact-info h3 {
-            color: #004085;
             margin-bottom: 15px;
+            font-size: 1.3rem;
         }
 
         .contact-info p {
-            color: #004085;
-            margin: 8px 0;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .email {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e1e4e8;
+            color: #666;
+            font-size: 0.9rem;
         }
 
         @media (max-width: 768px) {
             .container {
-                padding: 20px;
                 margin: 10px;
+                padding: 15px;
             }
 
             .header h1 {
                 font-size: 2rem;
             }
 
-            .section h2 {
-                font-size: 1.5rem;
+            .section {
+                padding: 15px;
+            }
+
+            .badge {
+                display: block;
+                margin: 5px auto;
+                max-width: 200px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- GitHub Badges Section -->
+        <div class="github-badges">
+            <a href="https://github.com/your-username/al-habbh-mobileApp" class="badge">
+                📱 تطبيق الهبة
+            </a>
+            <a href="https://github.com/your-username/al-habbh-mobileApp/blob/main/LICENSE" class="badge license">
+                📄 MIT License
+            </a>
+            <a href="https://github.com/your-username/al-habbh-mobileApp/releases" class="badge version">
+                🚀 v1.0.0
+            </a>
+            <a href="https://github.com/your-username/al-habbh-mobileApp/issues" class="badge">
+                🐛 Report Issues
+            </a>
+        </div>
+
         <div class="header">
             <h1>معايير سلامة الأطفال</h1>
-            <p>سياسة تطبيق الهبة لحماية الأطفال</p>
+            <p>سياسة تطبيق الهبة لحماية الأطفال من الاستغلال والاعتداء</p>
         </div>
 
         <div class="app-info">
             <h2>معلومات التطبيق</h2>
             <p><strong>اسم التطبيق:</strong> تطبيق الهبة</p>
             <p><strong>اسم المطور:</strong> ABDULMOHSEN ALSHAMMARI</p>
-            <p><strong>تاريخ آخر تحديث:</strong> 2025-01-09</p>
+            <p><strong>تاريخ آخر تحديث:</strong> يناير 2025</p>
         </div>
 
         <div class="section">
@@ -266,16 +355,16 @@
         <div class="contact-info">
             <h3>الإبلاغ عن انتهاكات أو التواصل معنا</h3>
             <p>إذا صادفت أي محتوى أو نشاط يشتبه في أنه يتعلق بالاعتداء الجنسي على الأطفال أو استغلالهم، يرجى الإبلاغ فوراً:</p>
-            <p><strong>البريد الإلكتروني:</strong> info@alhabbh.com</p>
-            <p><strong>نوع التطبيق:</strong> تطبيق اجتماعي للاكتشاف والمشاركة</p>
+            <div class="email">📩 info@alhabbh.com</div>
+            <p style="margin-top: 15px;"><strong>اسم التطبيق:</strong> الهبة</p>
             <p><strong>اسم المطور:</strong> ABDULMOHSEN ALSHAMMARI</p>
-            <p><strong>اسم التطبيق:</strong> الهبة</p>
+            <p><strong>نوع التطبيق:</strong> تطبيق اجتماعي للاكتشاف والمشاركة</p>
         </div>
 
         <div class="footer">
-            <p><strong>© 2025 تطبيق الهبة - جميع الحقوق محفوظة</strong></p>
+            <p>© 2025 تطبيق الهبة - جميع الحقوق محفوظة</p>
             <p>تم إنشاء هذه السياسة في إطار التزامنا بحماية الأطفال وضمان بيئة آمنة لجميع المستخدمين.</p>
-            <p>آخر تحديث: 2025-01-09</p>
+            <p>آخر تحديث: يناير 2025</p>
         </div>
     </div>
 </body>
